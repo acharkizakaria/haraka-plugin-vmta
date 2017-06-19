@@ -1,12 +1,12 @@
+VMTA
+========
+
 [![Build Status][ci-img]][ci-url]
-[![Code Coverage][cov-img]][cov-url]
+[![GitHub license][gitHub-license-img]][gitHub-license-url]
 [![Code Climate][clim-img]][clim-url]
 [![Greenkeeper badge][gk-img]][gk-url]
 
 [![NPM][npm-img]][npm-url]
-
-VMTA
-========
 
 The VMTA plugin gives the HARAKA users the ability to add/administer as many virtual
  MTAs (IP/host) as they need, allowing them to create enormous potential sending.
@@ -70,17 +70,16 @@ light-tool 'swaks' using the following command line :
 swaks -f youremail@yourdomain.com -t test@example.com -add-header "x-vmta: your_vmta_name"  \
   -s localhost -p 587 -au testuser -ap testpassword
 
-
 ## NOTE
 The passed parameter 'x-vmta' will be automatically removed from the header so the
 delivered email's header will not contain the parameter.
 
-[ci-img]: https://travis-ci.org/acharkizakaria/haraka-plugin-vmta.svg
-[ci-url]: https://travis-ci.org/acharkizakaria/haraka-plugin-vmta
+[ci-img]: https://travis-ci.org/acharkizakaria/haraka-plugin-accounting-files.svg
+[ci-url]: https://travis-ci.org/acharkizakaria/haraka-plugin-accounting-files
+[gitHub-license-img]: https://img.shields.io/badge/license-MIT-blue.svg
+[gitHub-license-url]: https://raw.githubusercontent.com/acharkizakaria/haraka-plugin-vmta/master/LICENSE
 [clim-img]: https://codeclimate.com/github/acharkizakaria/haraka-plugin-vmta/badges/gpa.svg
 [clim-url]: https://codeclimate.com/github/acharkizakaria/haraka-plugin-vmta
-[cov-img]: https://codecov.io/gh/acharkizakaria/haraka-plugin-vmta/badge.svg
-[cov-url]: https://codecov.io/gh/acharkizakaria/haraka-plugin-vmta
 [npm-img]: https://nodei.co/npm/haraka-plugin-vmta.png
 [npm-url]: https://www.npmjs.com/package/haraka-plugin-vmta
 [gk-img]: https://badges.greenkeeper.io/acharkizakaria/haraka-plugin-vmta.svg
