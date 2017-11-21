@@ -8,6 +8,8 @@ VMTA
 
 [![NPM][npm-img]][npm-url]
 
+[Official version HERE](https://github.com/haraka/haraka-plugin-vmta)
+
 The VMTA plugin gives the HARAKA users the ability to add/administer as many virtual
  MTAs (IP/host) as they need, allowing them to create enormous potential sending.
 
